@@ -35,16 +35,33 @@ long long sub(long long x, long long y, const long long &mod)
 
 //وَأَنَّ سَعْيَهُ سَوْفَ يُرَى
 void Remy() {
-    
+    ll n; cin>>n; 
+    string s; cin>>s;
+    string maxx=s;
+   for(int i=1;i<=n-1;i++){
+    if(maxx[i-1]=='1'&&maxx[i+1]=='1'){
+      maxx[i]='1' ; 
+
+    }}
+string minn=maxx;
+for(int i=1;i<=n-1;i++){
+    if(minn[i-1]=='1'&&minn[i+1]=='1'){
+      minn[i]='0' ; 
 }
-
-
-
+    
+} ll count1=0, count2=0;
+for(int i=0;i<n;i++){
+if(minn[i]=='1') count1++;
+if(maxx[i]=='1') count2++;
+}
+   
+   cout<<count1<<' '<<count2<<el;
+}
 int main() {
 cin.tie(0)->sync_with_stdio(0);
 
-int t = 1;
-//cin >> t;
+int t ;
+cin >> t;
 cout << fixed << setprecision(10);
     while (t--) {
 
