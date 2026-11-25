@@ -15,10 +15,19 @@ const double EPS = 1e-9;
 //وَأَنَّ سَعْيَهُ سَوْفَ يُرَى
 void Remy() {
     
+ll n; cin>>n; 
+vll a(n); for(int i=0;i<n;i++) cin>>a[i];
+sort(all(a)); bool f=0;
+for(int i=0;i<n;i++){
+    if(a[i]==9) f=1;
+}
+if(f){
+    cout<<a[0]<<endl;
+}
 
-
-
-
+else{
+    cout<<-1<<endl;
+}
 
 
 
