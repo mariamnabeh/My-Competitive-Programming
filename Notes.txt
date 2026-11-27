@@ -8,3 +8,17 @@ fill Function (For values other than 0 and -1):
 
 Used when you want to fill an array with another value (like INF or any other number) instead of just 0 or -1.
 Syntax:fill(array_name, array_name + size, value);
+
+
+----------------
+
+
+ the n must be const
+bitset<10>b=5;
+cout<<b<<el; print the binary presention to this num
+
+cout<<b.count()<<el; count ones
+cout<<b.reset()<<el; all bits be 0
+cout<<b[0]<<el;  to know the frist bit 1 or 0
+cout<<b.to_ullong()<<el;  num in decimal
+
